@@ -40,7 +40,7 @@ def echo_server(port):
             print(f"Data: {data}")
             client.send(data)
             print(f"Sent {data} bytes back to {address}")
-        
+
         # end connection
         client.close()
 
